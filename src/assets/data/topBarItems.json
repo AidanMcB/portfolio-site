@@ -1,0 +1,26 @@
+[
+    {
+        "className": "linkedin-logo",
+        "icon": "../../../assets/logos/LinkedIn_logo_initials.png",
+        "link": "https://www.linkedin.com/in/aidan-mcbride-52b6261a9?trk=profile-badge",
+        "name": "Linkedin"
+    },
+    {
+        "className": "github-logo",
+        "icon": "../../../assets/logos/GitHub-Mark-32px.png",
+        "link": "https://github.com/AidanMcB",
+        "name": "GitHub"
+    },
+    {
+        "className": "",
+        "icon": "",
+        "link": "",
+        "name": ""
+    },
+    {
+        "className": "",
+        "icon": "",
+        "link": "",
+        "name": ""
+    }
+]

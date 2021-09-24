@@ -1,0 +1,220 @@
+.spinner-wrapper{
+  background: #370D32;
+  height: 200px;
+  width: 200px;
+  perspective: 10em;
+}
+
+// // Ring 4 // 
+// .atom-ring4 {
+//   display: inline-block;
+//   position: relative;
+//   width: 10px;
+//   height: 10px;
+// }
+// .atom-ring4:after {
+//   content: " ";
+//   display: block;
+//   width: 150px;
+//   height: 150px;
+//   border-radius: 50%;
+//   border: 3px solid orange;
+//   // border-color: blue transparent transparent;
+//   border-color: orange;
+//   animation: atom-ring6 1.2s linear infinite;
+// }
+
+
+//  Ring 6 //
+.atom-ring6 {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.atom-ring6:after {
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid blue;
+  border-color: blue transparent transparent;
+  // border-color: blue;
+  animation: atom-ring6 1.2s linear infinite;
+}
+
+//  Ring 5 //
+.atom-ring5 {
+  display: inline-block;
+  position: relative;
+  left: 20px;  
+  top: -185px;   
+  width: 160px; 
+  height: 160px;
+}
+.atom-ring5:after {
+  content: " ";
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid white;
+  border-color: white transparent transparent;
+  // border-color: white;
+  animation: atom-ring5 1.2s linear infinite;
+}
+
+// Ring 4 //
+.atom-ring4 {
+  display: inline-block;
+  position: relative;
+  left: 25px;  
+  top: -345px;   
+  width: 160px; 
+  height: 160px;
+}
+.atom-ring4:after {
+  content: " ";
+  display: block;
+  width: 150px;    
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid yellow;
+  border-color: yellow transparent transparent;
+  // border-color: yellow;
+  animation: atom-ring4 1.2s linear infinite;
+}
+
+// Ring 3 //
+.atom-ring3{
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 40px;  
+  top: -494px;
+}
+.atom-ring3:after {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid red;
+  border-color: transparent transparent red;
+  // border-color: red;
+  animation: atom-ring3 1.2s linear infinite;
+}
+
+// Ring 2 //
+.atom-ring2{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: -60px; 
+  top: -534px;
+}
+.atom-ring2:after {
+  content: " ";
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid limegreen;
+  border-color: transparent transparent limegreen;
+  // border-color: limegreen;
+  animation: atom-ring2 1.2s linear infinite;
+}
+
+// Ring 1 //
+.atom-ring1{
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  position: relative;
+  left: 73px;  
+  top: -586px;
+}
+.atom-ring1:after {
+  content: " ";
+  display: block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid orange;
+  border-color: transparent transparent orange;
+  // border-color: orange;
+  animation: atom-ring1 1.2s linear infinite;
+}
+
+// Atom Center Sphere //
+.atom-center-sphere{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 32px;
+  top: -598px;
+  z-index: -4;
+}
+.atom-center-sphere:after{
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color:black;
+  border-radius: 50%;
+  border: 2px solid limegreen;
+  // border-color: transparent transparent limegreen;
+  border-color: limegreen;
+  // animation: lds-inner-ring 1.2s linear infinite;
+}
+
+// Animations - Outer to Inner //
+
+@keyframes atom-ring6  {
+  0% {
+    transform: rotateX(45deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateX(45deg) rotate(-360deg);
+  }
+}
+@keyframes atom-ring5  {
+  0% {
+    transform: rotateX(-45deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateX(-45deg) rotate(-360deg);
+  }
+}
+@keyframes atom-ring4  {
+  0% {
+    transform: rotateY(85deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateY(85deg) rotate(-360deg);
+  }
+}
+
+@keyframes atom-ring2  {
+  0% {
+    transform: rotateY(125deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateY(125deg) rotate(-360deg);
+  }
+}
+
+
+
+@keyframes lds-outer-ring  {
+  0% {
+    transform: rotateX(45deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateX(45deg) rotate(-360deg);
+  }
+}

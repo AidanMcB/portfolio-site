@@ -1,0 +1,5 @@
+<div class="top-bar">
+    <div *ngFor="let item of topbarItems" class="top-bar-item" (click)="openLink(item)">
+        <img [src]="item.icon" [class]="item.className" [attr.alt]="item.name">
+    </div>
+</div>

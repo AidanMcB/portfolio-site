@@ -1,0 +1,20 @@
+.top-bar{
+    align-items: center;
+    background-color: gray;
+    border-bottom: 1px solid rgb(0,0,0);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    .top-bar-item{
+        
+        &:hover {
+           cursor: pointer; 
+        }
+    }
+    .linkedin-logo{
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
