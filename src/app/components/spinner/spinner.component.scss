@@ -176,10 +176,10 @@
 
 @keyframes atom-ring6  {
   0% {
-    transform: rotateX(45deg) rotate(0deg);
+    transform: rotateX(245deg) rotate(0deg);
   }
   100% {
-    transform: rotateX(45deg) rotate(-360deg);
+    transform: rotateX(245deg) rotate(-360deg);
   }
 }
 @keyframes atom-ring5  {
@@ -198,13 +198,28 @@
     transform: rotateY(85deg) rotate(-360deg);
   }
 }
-
+@keyframes atom-ring3  {
+  0% {
+    transform: rotateY(35deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateY(35deg) rotate(-360deg);
+  }
+}
 @keyframes atom-ring2  {
   0% {
     transform: rotateY(125deg) rotate(0deg);
   }
   100% {
     transform: rotateY(125deg) rotate(-360deg);
+  }
+}
+@keyframes atom-ring1  {
+  0% {
+    transform: rotatex(225deg) rotate(0deg);
+  }
+  100% {
+    transform: rotatex(225deg) rotate(-360deg);
   }
 }
 
