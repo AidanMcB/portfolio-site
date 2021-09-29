@@ -1,0 +1,11 @@
+<div class="page-wrapper">
+    <div class="card-grid">
+        <div class="project-card" *ngFor="let project of projects">
+            <span>{{project.name}}</span>
+            <div class="proj-img-wrapper">
+              <img [src]="project.image" class="proj-img">
+            </div>
+            <p class="card-description">{{project.description}}</p>
+        </div>
+    </div>
+</div>

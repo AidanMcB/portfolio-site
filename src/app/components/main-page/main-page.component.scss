@@ -1,14 +1,12 @@
-.page-wrapper{
-
-    // display: flex;
-    height: 100vh;
-    width: 100%;
+.page-wrapper, .landing-page, .projects-page{
+    // height: 100vh;
+    // width: 100%;
 }
 
 .landing-page{
     background: #370D32;
-    height: 100vh;
-    width: 100vw;
+    // height: 100vh;
+    // width: 100vw;
     display: flex;
     justify-content: center;
     .center-content{

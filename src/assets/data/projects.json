@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Your Journey",
+    "description": "A bussiness site for a Personal Trainer and Life Coach built with ReactJS",
+    "image": "../../../assets/YourJourney.png",
+    "link": "https://your-journey-its-about-you.com/"
+  },
+  {
+    "name": "Dungeons and Dragons Dice Roller",
+    "description": "A dice rolling and currency conversion application for the popular board game Dungeons and Dragons",
+    "image": "../../../assets/d&dbackground.jpg",
+    "link": "https://aidanmcb.github.io/DandDDiceApp/"
+  }
+]
