@@ -10,5 +10,11 @@
     "description": "A dice rolling and currency conversion application for the popular board game Dungeons and Dragons",
     "image": "../../../assets/d&dbackground.jpg",
     "link": "https://aidanmcb.github.io/DandDDiceApp/"
+  },
+  {
+    "name": "Angular Quiz App",
+    "description": "Quiz application using Angular, TypeScript, and a REST API with quiz questions and answers",
+    "image": "../../../assets/angular-logo.svg",
+    "link": "https://angular-quiz-application.web.app/"
   }
 ]

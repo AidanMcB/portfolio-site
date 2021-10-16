@@ -1,6 +1,6 @@
 <div class="page-wrapper">
     <div class="card-grid">
-        <div class="project-card" *ngFor="let project of projects">
+        <div class="project-card" *ngFor="let project of projects" (click)="openProject(project.link)">
             <span>{{project.name}}</span>
             <div class="proj-img-wrapper">
               <img [src]="project.image" class="proj-img">

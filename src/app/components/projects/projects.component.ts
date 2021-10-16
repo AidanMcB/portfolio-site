@@ -16,4 +16,8 @@ export class ProjectsComponent implements OnInit {
     console.log(this.projects)
   }
 
+  public openProject(projectLink: string):void {
+    window.open(projectLink);
+  }
+
 }
